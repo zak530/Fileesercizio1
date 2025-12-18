@@ -1,9 +1,9 @@
 public class Macchina {
     private String marca;
     private String modello;
-    private int anno;
-    private int prezzo;
-    private int chilometri;
+    private String anno;
+    private String prezzo;
+    private String chilometri;
     private String colore;
     private String carburante;
 
