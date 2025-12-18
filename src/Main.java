@@ -1,7 +1,8 @@
 import java.io.*;
 class Main {
-        public static void main(String[] args) throws IOException {
-            Macchina[] macchine = new Macchina[10]; // array per 10 macchine
+        public static void main(String[] args)
+                throws IOException {
+            Macchina[] macchine = new Macchina[10];
             int conta = 0;
 
             BufferedReader br = new BufferedReader(new FileReader("macchine.csv"));
@@ -22,7 +23,6 @@ class Main {
             }
             br.close();
 
-            // Stampa con toString() per verifica
             for (int i = 0; i < conta; i++) {
                 System.out.println(macchine[i].toString());
             }
