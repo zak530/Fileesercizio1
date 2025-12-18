@@ -7,7 +7,7 @@ public class Macchina {
     private String colore;
     private String carburante;
 
-    public Macchina(String marca, String modello, int anno, int prezzo, int chilometri, String colore, String carburante) {
+    public Macchina(String marca, String modello, String anno, String prezzo, String chilometri, String colore, String carburante) {
         this.marca = marca;
         this.modello = modello;
         this.anno = anno;
@@ -17,8 +17,7 @@ public class Macchina {
         this.carburante = carburante;
     }
 
-    @Override
     public String toString() {
-        return String.format(marca, modello, anno, prezzo, chilometri, colore, carburante);
+        return marca + " " + modello + " (" + anno + ") - " + prezzo + "€, " + chilometri + " km, " + colore + ", " + carburante;
     }
 }

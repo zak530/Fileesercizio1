@@ -10,13 +10,13 @@ class Main {
             while ((riga = br.readLine()) != null && conta < 10) {
                 String[] dati = riga.split(",");
                 macchine[conta] = new Macchina(
-                        dati[0],          // marca
-                        dati[1],          // modello
-                        Integer.parseInt(dati[2]), // anno
-                        Integer.parseInt(dati[3]), // prezzo
-                        Integer.parseInt(dati[4]), // chilometri
-                        dati[5],          // colore
-                        dati[6]           // carburante
+                        dati[0],
+                        dati[1],
+                        dati[2],
+                        dati[3],
+                        dati[4],
+                        dati[5],
+                        dati[6]
                 );
                 conta++;
             }
