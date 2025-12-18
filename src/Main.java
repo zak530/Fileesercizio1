@@ -14,8 +14,8 @@ class Main {
                         dati[0],
                         dati[1],
                         dati[2],
-                        dati[3],
-                        dati[4],
+                        Integer.parseInt(dati[3]),
+                        Integer.parseInt(dati[4]),
                         dati[5],
                         dati[6]
                 );
